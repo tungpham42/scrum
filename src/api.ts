@@ -62,6 +62,33 @@ const comprehensiveLessons: Lesson[] = [
         ],
         correctAnswer: 1,
       },
+      {
+        id: "ex1-4",
+        question:
+          "Which of the following are the three pillars of empiricism in Scrum?",
+        options: [
+          { id: 1, text: "Planning, Doing, Checking" },
+          { id: 2, text: "Transparency, Inspection, Adaptation" },
+          { id: 3, text: "Transparency, Review, Retrospective" },
+          { id: 4, text: "Focus, Courage, Respect" },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "ex1-5",
+        question:
+          "According to the Scrum Guide, which of the following are the five Scrum values?",
+        options: [
+          { id: 1, text: "Commitment, Focus, Openness, Respect, and Courage" },
+          {
+            id: 2,
+            text: "Transparency, Inspection, Adaptation, Quality, Speed",
+          },
+          { id: 3, text: "Agility, Empathy, Collaboration, Trust, Openness" },
+          { id: 4, text: "Planning, Execution, Delivery, Review, Improvement" },
+        ],
+        correctAnswer: 1,
+      },
     ],
   },
   {
@@ -131,6 +158,44 @@ const comprehensiveLessons: Lesson[] = [
           },
           { id: 3, text: "Typically 10 or fewer people in total." },
           { id: 4, text: "As large as necessary to complete the project." },
+        ],
+        correctAnswer: 3,
+      },
+      {
+        id: "ex2-4",
+        question: "What does it mean for a Scrum Team to be cross-functional?",
+        options: [
+          {
+            id: 1,
+            text: "They have all the skills necessary to create value each Sprint.",
+          },
+          { id: 2, text: "Everyone on the team must know how to code." },
+          {
+            id: 3,
+            text: "They are divided into sub-teams for backend, frontend, and QA.",
+          },
+          {
+            id: 4,
+            text: "They work across multiple different products simultaneously.",
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: "ex2-5",
+        question:
+          "Which of the following describes the hierarchy within a Scrum Team?",
+        options: [
+          { id: 1, text: "The Scrum Master manages the Developers." },
+          {
+            id: 2,
+            text: "The Product Owner is the manager of the entire team.",
+          },
+          {
+            id: 3,
+            text: "There are no hierarchies or sub-teams; it is a cohesive unit of professionals.",
+          },
+          { id: 4, text: "Developers are ranked by seniority." },
         ],
         correctAnswer: 3,
       },
@@ -212,6 +277,33 @@ const comprehensiveLessons: Lesson[] = [
         ],
         correctAnswer: 2,
       },
+      {
+        id: "ex3-4",
+        question:
+          "Who is the only person accountable for managing the Product Backlog?",
+        options: [
+          { id: 1, text: "The Scrum Master" },
+          { id: 2, text: "The Product Owner" },
+          { id: 3, text: "The Lead Developer" },
+          { id: 4, text: "The Project Manager" },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "ex3-5",
+        question:
+          "A stakeholder insists that their department should share the Product Owner role as a committee. Is this allowed in Scrum?",
+        options: [
+          { id: 1, text: "Yes, a committee ensures all voices are heard." },
+          {
+            id: 2,
+            text: "No, the Product Owner is one person, not a committee.",
+          },
+          { id: 3, text: "Yes, provided the Scrum Master agrees." },
+          { id: 4, text: "No, only Developers can form a committee." },
+        ],
+        correctAnswer: 2,
+      },
     ],
   },
   {
@@ -274,6 +366,33 @@ const comprehensiveLessons: Lesson[] = [
           { id: 4, text: "The Product Owner." },
         ],
         correctAnswer: 3,
+      },
+      {
+        id: "ex4-4",
+        question:
+          "During Sprint Planning, who is accountable for creating the plan for the Sprint (the Sprint Backlog)?",
+        options: [
+          { id: 1, text: "The Scrum Master" },
+          { id: 2, text: "The Product Owner" },
+          { id: 3, text: "The Developers" },
+          { id: 4, text: "The Project Manager" },
+        ],
+        correctAnswer: 3,
+      },
+      {
+        id: "ex4-5",
+        question:
+          "What happens if the Developers discover they need a specific skill they do not possess to achieve the Sprint Goal?",
+        options: [
+          { id: 1, text: "The Sprint is immediately cancelled." },
+          {
+            id: 2,
+            text: "They must rely on their cross-functional nature and collaborate to find a way to complete the work.",
+          },
+          { id: 3, text: "The Scrum Master must do the work for them." },
+          { id: 4, text: "They skip the work and change the Sprint Goal." },
+        ],
+        correctAnswer: 2,
       },
     ],
   },
@@ -352,6 +471,39 @@ const comprehensiveLessons: Lesson[] = [
         ],
         correctAnswer: 2,
       },
+      {
+        id: "ex5-4",
+        question:
+          "How is the Scrum Master role best described in relation to the Scrum Team?",
+        options: [
+          { id: 1, text: "A true leader who serves the Scrum Team." },
+          { id: 2, text: "The project manager who assigns daily tasks." },
+          {
+            id: 3,
+            text: "The technical lead who makes architectural decisions.",
+          },
+          { id: 4, text: "The person solely accountable for product value." },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: "ex5-5",
+        question:
+          "In which of the following ways does the Scrum Master serve the organization?",
+        options: [
+          { id: 1, text: "By managing the company's budget and HR processes." },
+          {
+            id: 2,
+            text: "By leading, training, and coaching the organization in its Scrum adoption.",
+          },
+          {
+            id: 3,
+            text: "By writing all the requirement documents for new teams.",
+          },
+          { id: 4, text: "By dictating which tools the Developers must use." },
+        ],
+        correctAnswer: 2,
+      },
     ],
   },
   {
@@ -411,6 +563,40 @@ const comprehensiveLessons: Lesson[] = [
           { id: 2, text: "8 hours." },
           { id: 3, text: "2 days." },
           { id: 4, text: "There is no timebox; it takes as long as needed." },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "ex6-4",
+        question: "Which three topics are addressed during Sprint Planning?",
+        options: [
+          { id: 1, text: "Who, What, and When?" },
+          {
+            id: 2,
+            text: "Why is this Sprint valuable? What can be Done this Sprint? How will the chosen work get done?",
+          },
+          { id: 3, text: "Budget, Scope, and Schedule." },
+          { id: 4, text: "Risks, Issues, and Dependencies." },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: "ex6-5",
+        question: "Can changes be made during a Sprint?",
+        options: [
+          {
+            id: 1,
+            text: "No, the Sprint Backlog is frozen once the Sprint begins.",
+          },
+          {
+            id: 2,
+            text: "Yes, but only changes that do not endanger the Sprint Goal.",
+          },
+          {
+            id: 3,
+            text: "Yes, the Product Owner can change the Sprint Goal at any time.",
+          },
+          { id: 4, text: "Yes, but only with the CEO's approval." },
         ],
         correctAnswer: 2,
       },
@@ -485,6 +671,34 @@ const comprehensiveLessons: Lesson[] = [
         ],
         correctAnswer: 3,
       },
+      {
+        id: "ex7-4",
+        question: "What is the primary purpose and timebox of the Daily Scrum?",
+        options: [
+          {
+            id: 1,
+            text: "A 15-minute event for Developers to inspect progress toward the Sprint Goal and adapt the plan.",
+          },
+          { id: 2, text: "A 30-minute status meeting for the Product Owner." },
+          {
+            id: 3,
+            text: "A 15-minute meeting to resolve all technical impediments.",
+          },
+          { id: 4, text: "A 45-minute planning session for the next Sprint." },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: "ex7-5",
+        question: "Who participates in the Sprint Retrospective?",
+        options: [
+          { id: 1, text: "Only the Developers." },
+          { id: 2, text: "The Developers and the Scrum Master." },
+          { id: 3, text: "The entire Scrum Team." },
+          { id: 4, text: "The Scrum Team and key stakeholders." },
+        ],
+        correctAnswer: 3,
+      },
     ],
   },
   {
@@ -553,6 +767,30 @@ const comprehensiveLessons: Lesson[] = [
           { id: 4, text: "The Product Goal." },
         ],
         correctAnswer: 4,
+      },
+      {
+        id: "ex8-4",
+        question:
+          "What is the specific commitment associated with the Sprint Backlog?",
+        options: [
+          { id: 1, text: "The Product Goal" },
+          { id: 2, text: "The Definition of Done" },
+          { id: 3, text: "The Sprint Goal" },
+          { id: 4, text: "The Release Plan" },
+        ],
+        correctAnswer: 3,
+      },
+      {
+        id: "ex8-5",
+        question:
+          "What is the primary reason Scrum defines specific artifacts?",
+        options: [
+          { id: 1, text: "To ensure detailed documentation of all features." },
+          { id: 2, text: "To maximize transparency of key information." },
+          { id: 3, text: "To provide a clear audit trail for management." },
+          { id: 4, text: "To track individual developer performance." },
+        ],
+        correctAnswer: 2,
       },
     ],
   },
